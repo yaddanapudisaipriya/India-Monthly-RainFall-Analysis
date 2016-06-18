@@ -1,0 +1,12 @@
+parts <- c(`Up`=12, `Assam`=11, `MP`=10,'Bihar'=9,'Orissa'=8,''Manipur'=7,'West Bengal'=6,'Jharkhand'=5,'Arunachal Pradesh'=4,'Mizoram'=3,'AP'=2,'Chattisgarh'=1)
+
+flood<-waffle(parts, rows=5, size=1, colors=c("green", "blue", "red","grey","white","orange","violet","black","pink","yellow","black","brown"), 
+       title="Flood prone areas", )
+
+
+parts1 <- c(`Delhi`=12, `Chandigarh`=11, `Punjab`=10,'Himachal Pradesh'=9,'Haryana'=8,'J&K'=7,'Tripura'=6,'Uttranchal'=5,'Nagaland'=4,'Meghalaya'=3,'Sikkim'=2,'Rajasthan'=1)
+
+
+
+drought<-waffle(parts1, rows=5, size=1, colors=c("green", "blue", "red","grey","white","orange","violet","black","pink","yellow","black","brown"), 
+       title="Drought prone areas",)
